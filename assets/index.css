@@ -1,0 +1,41 @@
+@import url("card.css");
+#nav{
+	height: 10vh;
+	width: 100vw;
+	background: #00CCFF;
+	position: relative;
+	display: flex;
+}
+.leftnav{
+	flex: 1;
+	height: 100%;
+	background: #FFFFFF;
+	position: relative;
+}
+.righttnav{
+	height: 100%;
+	background: #FFFFFF;
+	flex: 1;
+	position: relative;
+}
+.righttnav::before{
+	clear: none;
+}
+.leftnav ul{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+.righttnav ul{
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
